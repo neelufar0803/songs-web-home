@@ -1,0 +1,23 @@
+img {
+    width: 100%;
+}
+h2{
+    margin-left: 20px;
+    font-size: 50px;
+    font-weight: normal;
+  }
+
+  #outer_wrapper {  
+    overflow: scroll;  
+    width:100%;
+}
+#outer_wrapper #inner_wrapper {
+    width:3000px; /*If you have more elements, increase the width accordingly */
+}
+#outer_wrapper #inner_wrapper div.box { /* Define the properties of inner block */
+    width: 250px;
+    height:300px;
+    float: left;
+    margin: 0 4px 0 0;
+    border:3px rgb(180, 180, 180) solid;
+}

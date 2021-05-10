@@ -1,0 +1,59 @@
+hr {
+  border-width: 5px;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  
+  float: left;
+  text-align: center;
+  padding-top: 95px;
+  width: 48%;
+  height: 300px;
+  margin-left: 15px;
+  background-image: url(./images/tolly.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.9); /* Black w/opacity/see-through */
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  border: 5px solid #575656;
+  z-index: 2;
+  padding: 20px;
+  text-align: center;
+}
+
+.column1 {
+  float: right;
+  text-align: center;
+  padding-top: 95px;
+  width:48%;
+  height: 300px;
+  margin-right: 20px;
+  background-image: url(./images/bolly.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+h1.a{
+  margin-left: 20px;
+  font-size: 50px;
+  font-weight: normal;
+}
+
+h2.b {
+  font-size: 30px;
+}
